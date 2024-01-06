@@ -1,0 +1,144 @@
+.dark-brown {
+    background-color: #463F3A;
+}
+
+.kumbh-sans {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.page-top {
+    height: 1vw;
+    width: 100%;
+}
+
+.nav-button {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    color: #F5F1ED;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.active-nav {
+    background-color: #9a8c98;
+}
+
+.logo {
+    width: 8vw;
+}
+
+.logo-container {
+    padding-left: 2vw;
+    align-items: left;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    right: 0;
+    height: 100%;
+    width: 8vw;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #463F3A;
+    display: flex;
+    padding: auto;
+    vertical-align: center;
+  }
+
+.logo-container:hover .overlay {
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+    flex-grow: 1;
+}
+
+.hero-container {
+    width: 100%;
+    height: 60vw;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 5vw;
+    color:#F4F3EE;
+    margin-top: -55%;
+    margin-left: 5%;
+}
+
+.divider {
+    background-color: #463F3A;
+    height: 20px;
+    width: 100%;
+}
+
+.off-white {
+    background-color: #F5F5F5;
+}
+
+.beige {
+    background-color: #F5F1ED;
+}
+
+.body-section{
+    height: 800px;
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    padding-left: 4vw;
+}
+
+.section-header {
+    color: #8A817C;
+    font-size: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.body-text {
+    font-size: 24px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: #8A817C;
+}
+
+@media only screen and (min-width: 750px) {
+    .section-header {
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        color: #8A817C;
+        font-size: 96px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    .header-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .body-section{
+        height: 800px;
+        padding-top: 5vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .body-text {
+        font-size: 24px;
+        padding-left: 4vw;
+        padding-right: 25vw;
+        color: #8A817C;
+    }
+}
